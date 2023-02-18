@@ -1,0 +1,27 @@
+Partie description article:
+- Mise en forme texte plus large et marges plus petites
+- Aller chercher les démonstrations de chaque formules et les écrires en latex pour donner un max de détail théorique (ce qui est plutôt attendu)
+- Aller dans le détails d'autres articles et détails de chaque concept de RL (A2C, Policy optimization ...)
+- Parler des limites de l'article aussi et des critiques possibles
+
+Partie Code:
+- Decrire toute l'expérience avec l'environnement et les bibliothèquies utilisées
+- qu'est ce qu'on utilise comme modèle et comme environnement comme reward ...
+- parler des résultats obtenus sur différents jeux voir des nouveaux jeux qu'atari (bipede)
+- Possible extension voir references
+
+
+Coding :
+- Tester première version fonctionne avec atari env : 
+https://github.com/tegg89/rl-teacher-Pytorch
+https://github.com/ZachisGit/LearningFromHumanPreferences
+https://github.com/BenJ-cell/Reinforcement-Learning-Deep-Reinforcement-Learning-from-Human-Preferences/blob/main/Policy_modify_%2B_A2C_CartPole.ipynb
+https://github.com/PhiDole/DeepReinforcementLearningFromHumanPreferences
+
+- Modifier les architectures et les paramètres et commenter les variations (comme attendu avec la théorie??)
+
+- Tester cette même version sur différents jeux (gym_retro):
+https://github.com/openai/universe-starter-agent
+
+- Tester l'interface qui recolte les informations sur locahost : 
+https://github.com/Feryal/rl-teacher
